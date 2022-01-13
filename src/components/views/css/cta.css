@@ -1,0 +1,29 @@
+#cta h3, p {
+  color: #fff;
+}
+
+#cta h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#cta .cta-btn {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+  position: relative;
+  top: 80px;
+}
+
+#cta .cta-btn:hover {
+  background-color: #47b2e4;
+  border: 2px solid #47b2e4;
+}

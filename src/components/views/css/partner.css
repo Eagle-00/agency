@@ -1,0 +1,29 @@
+.cliens {
+  padding: 12px 0;
+  text-align: center;
+}
+
+.section-bg {
+  background-color: #f3f5fa;
+}
+
+.cliens img {
+  max-width: 45%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  filter: grayscale(100);
+}
+
+.cliens h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  margin: 0;
+  background: #e7f1fd;
+  color: #106eea;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+}

@@ -1,0 +1,16 @@
+#blog-comments .blog-comments .comments {
+  margin-top: 30px;
+  position: relative;
+}
+
+#blog-comments .blog-comments .comment-img { margin-right: 14px; }
+
+#blog-comments .comments h5 a {
+  font-weight: bold;
+  color: #444444;
+  transition: 0.3s;
+}
+
+#blog-comments .comments h5 a:hover { color: blue; }
+
+#blog-comments .comment-reply { padding-left: 40px; }

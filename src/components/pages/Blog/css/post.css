@@ -1,0 +1,141 @@
+#posts .entry-meta {
+  margin-bottom: 15px;
+  color: #a3ab95;
+}
+
+#posts .entry-meta ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+#posts .entry-meta ul li {
+  color: #777777;
+  font-size: 14px;
+  display: inline-block;
+  line-height: 1;
+}
+
+#posts .posts-links {
+  color: #000;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
+
+#posts .entry-meta ul li a {
+  color: #3b8af2;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
+
+#posts .entry-meta ul li a:hover, #posts .posts-links:hover { color: blue; }
+
+#posts .entry-content p { line-height: 24px; }
+
+#posts .read-more a {
+  display: inline-block;
+  background: #3b8af2;
+  color: #fff;
+  padding: 6px 20px;
+  transition: 0.3s;
+  font-size: 14px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+#posts .read-more a:hover { background: blue; }
+
+#posts .sidebar {
+  padding: 30px;
+  margin: 0 0 60px 20px;
+  box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+}
+
+#categories ul {
+  list-style: none;
+  padding: 0;
+}
+
+#categories ul li a {
+  color: #3c4133;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+#categories ul li a span {
+  padding-left: 5px;
+  color: #aaaaaa;
+  font-size: 14px;
+}
+
+#categories ul li a:hover { color: blue; }
+
+#recents-posts .recents-posts-items .recents-posts-item img {
+  width: 80px;
+  float: left;
+}
+
+#recents-posts .recents-posts-items .recents-posts-item h4 {
+  font-size: 15px;
+  margin-left: 95px;
+  font-weight: bold;
+}
+
+#recents-posts .recents-posts-items .recents-posts-item a {
+  color: #3c4133;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+#recents-posts .recents-posts-items .recents-posts-item a:hover { color: blue; }
+
+#tags .tags ul {
+  list-style: none;
+  padding: 0;
+}
+
+#tags .tags ul li { display: inline-block; }
+
+#tags .tags ul li a {
+  color: #7e886b;
+  font-size: 14px;
+  padding: 6px 14px;
+  margin: 0 6px 8px 0;
+  border: 1px solid #edefea;
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+#tags .tags ul li a:hover {
+  background: blue;
+  color: #fff;
+}
+
+#single-post .sidebar {
+  padding: 30px;
+  margin: 0 0 60px 20px;
+  box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+}
+
+#single-post .entry-meta ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+#single-post a {
+  text-decoration: none;
+  color: #3b8af2;
+  transition: 0.4s ease-in-out;
+}
+
+#single-post a:hover { color: blue; }
